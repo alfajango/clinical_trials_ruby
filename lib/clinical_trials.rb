@@ -3,7 +3,7 @@ require 'clinical_trials/client'
 module ClinicalTrials
   
   def self.client(options={})
-      ClinicalTrials::Client.new(options)
+      ClinicalTrials::Client.new()
     end
 
     # Delegate to MicrosoftOpenData::Client.new
